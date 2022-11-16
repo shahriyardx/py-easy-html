@@ -16,12 +16,12 @@ mod = module_from_spec(spec)
 spec.loader.exec_module(mod)
 
 setup(
-    name="easy-html",
+    name="py-easy-html",
     version=mod.__version__,
     description="Generate HTML using python and also convert to PDF.",  # Optional
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/shahriyardx/easy-html",
+    url="https://github.com/shahriyardx/py-easy-html",
     author="Md Shahriyar Alam",
     author_email="contact@shahriyar.dev",
     classifiers=[
@@ -37,7 +37,7 @@ setup(
     python_requires=">=3.7, <4",
     install_requires=requirements,
     project_urls={
-        "Bug Reports": "https://github.com/shahriyardx/easy-html/issues",
-        "Source": "https://github.com/shahriyardx/easy-html/",
+        "Bug Reports": "https://github.com/shahriyardx/py-easy-html/issues",
+        "Source": "https://github.com/shahriyardx/py-easy-html/",
     },
 )
