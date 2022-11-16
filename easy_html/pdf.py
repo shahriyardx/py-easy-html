@@ -1,7 +1,9 @@
-import pdfkit
-from .types import HTML
 import os
 from io import BytesIO
+
+import pdfkit
+
+from .types import HTML
 
 
 def generate_pdf_from_html(

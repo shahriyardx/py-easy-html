@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 
-from .types import ATTRIBUTES, HTML, HTML_TAG_NAME, STYLE
 from .templates import html_page
+from .types import ATTRIBUTES, HTML, HTML_TAG_NAME, STYLE
 
 
 def prettify_html(html: HTML) -> HTML:
