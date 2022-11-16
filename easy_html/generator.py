@@ -72,7 +72,7 @@ def generate_tag(
 def make_page(
     body: HTML,
     title: str = "",
-    style: str = "",
+    css: str = "",
     links: str = "",
     font: str = "",
     prettify: bool = True,
@@ -83,7 +83,7 @@ def make_page(
         _body = " ".join(body)
     html = (
         html_page.replace("%%title%%", title)
-        .replace("%%style%%", style + font)
+        .replace("%%style%%", css + font)
         .replace("%%links%%", links)
         .replace("%%font%%", "")
         .replace("%%body%%", _body)
