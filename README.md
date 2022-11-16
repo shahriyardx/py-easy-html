@@ -25,7 +25,7 @@ h1 = generate_tag('h1', body=generate_tag('span', body='Span inside h1'))
 ```
 > Output
 ```html
-<h1 class="your_class" id="your_id">
+<h1>
   <span>Span inside h1</span>
 </h1>
 ```
